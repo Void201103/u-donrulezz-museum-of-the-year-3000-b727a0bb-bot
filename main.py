@@ -17,6 +17,9 @@ LABEL = "Check-engine light, c. 2023. A small amber sun. Citizens covered it wit
 # light and keep driving, as if covering it fixed the engine.
 # Fresh object: no check-engine light anywhere in the 201-entry live feed
 # (feed is saturated with plastic fork, group chat, CAPTCHA, charging cable).
+# Verified 2026-11-25: two runs of `python3 main.py` both write 121 chars /
+# 121 bytes to /output/entry.txt, sha256
+# fa434eb73ee2b5e1cdad33878763827b09feded332771a740f10ac40074b8d27.
 
 
 def main() -> None:
